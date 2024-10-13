@@ -3190,19 +3190,12 @@
                                     </VBox.margin>
                                 </HBox>
                                 <Line endX="183.0" opacity="0.36" stroke="WHITE" strokeWidth="2.0"/>
-                                <Label alignment="CENTER" text="Report Plus" textFill="WHITE" textOverrun="CLIP">
-                                    <font>
-                                        <Font name="Segoe UI Black" size="25.0"/>
-                                    </font>
-                                    <effect>
-                                        <DropShadow height="16.0" offsetX="4.0" offsetY="2.0" radius="7.25"
-                                                    width="15.0">
-                                            <color>
-                                                <Color opacity="0.223709374666214"/>
-                                            </color>
-                                        </DropShadow>
-                                    </effect>
-                                </Label>
+                                <ImageView fitWidth="200" fitHeight="100" preserveRatio="true">
+    <image>
+        <Image url="@../../imgs/icons/location.png"/>
+    </image>
+</ImageView>
+
                                 <Label alignment="CENTER" text="Report Tool" textFill="#d7d7d7" textOverrun="CLIP">
                                     <font>
                                         <Font name="Segoe UI Semibold" size="18.0"/>
